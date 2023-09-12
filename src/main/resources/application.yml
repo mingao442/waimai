@@ -1,6 +1,11 @@
 server:
   port: 8080
 spring:
+  redis:
+    password:
+    port: 6379
+    host: localhost
+    database: 0
   application:
     #????????
     name: reggie_take_out
@@ -22,6 +27,5 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
-
 reggie:
   path: D:\img\
