@@ -1,6 +1,7 @@
 server:
   port: 8080
 spring:
+#demo
   redis:
     password:
     port: 6379
